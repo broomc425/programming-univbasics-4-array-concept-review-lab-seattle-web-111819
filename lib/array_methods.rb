@@ -1,6 +1,30 @@
+# def find_element_index(array, value_to_find)
+#   count = 0
+#   while count < array.length do
+#     if array[count] == value_to_find
+#       return count
+#     end
+#     count += 1
+#   nil
+# end
+
+# loop do end
+#.times is a loop
+
 def find_element_index(array, value_to_find)
-  # Add your solution here
+  array.length.times do |count| #block variable
+  binding.pry
+    if array[count] == value_to_find
+      return count
+    end
+    nil
+  end
+
 end
+
+# def find_element_index(array, value_to_find)
+#   array.find_index(value_to_find)  
+# end
 
 def find_max_value(array)
   # Add your solution here
