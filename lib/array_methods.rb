@@ -26,8 +26,13 @@ end
 #   array.find_index(value_to_find)  
 # end
 
+
+#describe 'find_max_value(array)' do
+    #it 'takes in an array of integers and returns the highest value integer' do
+      
 def find_max_value(array)
-  # Add your solution here
+  array.length.times do |count|
+  return max_value(array)
 end
 
 def find_min_value(array)
