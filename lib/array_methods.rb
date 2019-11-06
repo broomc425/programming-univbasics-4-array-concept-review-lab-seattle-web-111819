@@ -17,7 +17,8 @@ def find_element_index(array, value_to_find)
     if array[count] == value_to_find
       return count
     end
-    nil
+  end
+  nil
 end
 
 # def find_element_index(array, value_to_find)
